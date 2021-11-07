@@ -42,7 +42,7 @@ function npc_sound:__init(snd_ini, section)
 	self.faction = utils.cfg_get_string(snd_ini, section, "faction", nil, false, "", "")
 	self.point = utils.cfg_get_string(snd_ini, section, "point", nil, false, "", "")
 	self.msg = utils.cfg_get_string(snd_ini, section, "message", nil, false, "", "")
-
+--what the dog doin?
 
 	local avail_communities = parse_names(utils.cfg_get_string(snd_ini, section, "avail_communities", nil, false, "", "stalker, ecolog, bandit, dolg, freedom, army, zombied, monolith, killer, renegade, csky, weirdos"))
 	self.avail_communities = {}
